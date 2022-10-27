@@ -1,0 +1,16 @@
+.restaurants {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  flex-grow: 1;
+}
+
+.restaurants-layout {
+  display: flex;
+}
+
+.restaurants-layout img {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
